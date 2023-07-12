@@ -1,0 +1,41 @@
+.header{
+    width:1280;
+    height:80px;
+    box-shadow:0 0 20px 0;
+    position: relative;
+}
+.header_box{
+    height:80px;
+}
+.Logo{
+    margin:25px 12px -4px 76px;
+}
+.Logo_txt{
+    font-size:30px;
+    font-weight:bold;
+    display: inline;
+}
+.Hamberger{
+    position: absolute;
+    top:30px;
+    right: 76px;
+    
+}
+
+.drop{
+    width:200px;
+    height:150px;
+    background:white;
+    position: absolute;
+    right:20px;
+}
+.drop ul{
+    box-shadow:0.5px 0.5px 0.5px 0.5px;
+    border-radius:10px;
+    overflow: hidden;
+}
+.drop li{
+    text-align: center;
+    line-height:48px;
+    border-bottom:1px solid lightgray
+}
