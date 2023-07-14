@@ -1,5 +1,38 @@
 .section{
-    width:80%;
-    height: 700px;
-    border:1px solid red
+    width:1128px;
+    height: 640px;
+    padding-top:104px;
+}
+/* ----------------------------상품리스트 */
+.product_list{
+    height:314px;
+}
+.section ul li {
+    width:264px;
+    float: left;
+    margin-right:24px;
+}
+.section ul li:nth-child(4){
+    margin:0
+}
+
+.section ul li img{
+    width:264px;
+    height:210px;
+    border-radius:15px;
+}
+.section h2{
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.section .h3{
+    float: left;
+}
+.section p{
+    float:right
+}
+
+/* ------------------------------------북마크 */
+.bookmark_list{
+    height:314px;
 }
